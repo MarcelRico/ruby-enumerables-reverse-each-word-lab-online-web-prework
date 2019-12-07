@@ -6,5 +6,6 @@ def reverse_each_word(str)
   array.each do |word|
     result << word.reverse
   end
-  result.join()
+  answer = result.join()
+  return answer
 end
