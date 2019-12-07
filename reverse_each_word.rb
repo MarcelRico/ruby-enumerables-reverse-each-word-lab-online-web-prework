@@ -1,4 +1,12 @@
 def reverse_each_word(str)
-  array = str.split()
-  
+str = "Hello World! I'm Bob!"
+
+array = str.split()
+result = []
+
+
+  array.each do |word|
+    result << word.reverse
+  end
+
 end
